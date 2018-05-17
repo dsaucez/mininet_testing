@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="sftp://mininet@mininet:22/usr/bin/python" name="sftp://mininet@mininet:22/usr/bin/python">
+        <fileTransfer host="mininet" port="22" rootFolder="/home/mininet" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="sftp://mininet@mininet:22/usr/bin/python" name="sftp://mininet@mininet:22/usr/bin/python">
+        <fileTransfer host="mininet" port="22" rootFolder="/home/mininet" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
