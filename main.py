@@ -3,6 +3,10 @@ from mininet.node import OVSSwitch, RemoteController, Controller
 from Topologies import SimpleTopology
 from mininet.log import setLogLevel
 from mininet.cli import CLI
+from mininet.node import CPULimitedHost
+from mininet.link import TCLink
+from mininet.util import dumpNodeConnections
+
 from os import system
 
 
@@ -22,6 +26,8 @@ net.addController(remote_controller)
 net.build()
 
 change_ip(network=net)
+h1, h2, h3 = net.getNodeByName("h1", "h2", "h3")
+#net.iperf( ( h1, h2 ), l4Type='UDP' )
 
 net.start()
 CLI(net)

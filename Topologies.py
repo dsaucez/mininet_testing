@@ -1,11 +1,13 @@
 from mininet.topo import Topo
+from mininet.node import CPULimitedHost
+from mininet.link import TCLink
+from mininet.util import dumpNodeConnections
 
 
 class SimpleTopology(Topo):
     # Single switch connected to n hosts
-    def __init__(self, **opts):
+    def build(self):
         # Initialize topology and default optioe
-        Topo.__init__(self, **opts)
         switches = []
         hosts = []
 
