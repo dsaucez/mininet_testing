@@ -1,0 +1,9 @@
+GET http://robustsfc.pl.sophia.inria.fr:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:1
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic YWRtaW46YWRtaW4=
+
+<> 2018-05-23T031544.200.txt
+
+###
+

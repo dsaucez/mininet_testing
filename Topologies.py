@@ -18,12 +18,12 @@ class SimpleTopology(Topo):
             hosts.append(self.addHost('h%s' % (h + 1)))
 
         self.addLink(hosts[0], switches[0])
-        self.addLink(hosts[4], switches[0])
-        self.addLink(hosts[1], switches[1])
-        self.addLink(hosts[5], switches[1])
-        self.addLink(hosts[2], switches[4])
-        self.addLink(hosts[6], switches[4])
-        self.addLink(hosts[3], switches[5])
+        self.addLink(hosts[1], switches[0])
+        self.addLink(hosts[2], switches[1])
+        self.addLink(hosts[3], switches[1])
+        self.addLink(hosts[4], switches[4])
+        self.addLink(hosts[5], switches[4])
+        self.addLink(hosts[6], switches[5])
         self.addLink(hosts[7], switches[5])
 
         self.addLink(switches[0], switches[2])

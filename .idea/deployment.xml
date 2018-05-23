@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="sftp://mininet@mininet:22/usr/bin/python" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@robustsfc.pl.sophia.inria.fr:22" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="sftp://mininet@mininet:22/usr/bin/python">
+      <paths name="root@robustsfc.pl.sophia.inria.fr:22">
         <serverdata>
           <mappings>
-            <mapping deploy="mininet_" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/pycharm_project_484" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

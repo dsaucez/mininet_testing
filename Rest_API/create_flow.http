@@ -1,0 +1,37 @@
+PUT http://robustsfc.pl.sophia.inria.fr:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:1/flow-node-inventory:table/0/flow/1
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic YWRtaW46YWRtaW4=
+Content-Type: application/yang.data+json
+
+{
+    "flow": {
+        "priority": "30000",
+        "flow-name": "Foo",
+        "match": {
+            "ethernet-match": {
+                "ethernet-type": {
+                    "type": "2048"
+                }
+            },
+            "ipv4-destination": "10.0.0.8/32"
+        },
+        "id": "1",
+        "table_id": "0",
+        "instructions": {
+            "instruction": {
+                "order": "1",
+                "apply-actions": {
+                    "action": {
+                        "order": "1",
+                        "set-nw-dst-action": {
+                            "ipv4-address": "10.0.0.7/32"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+###
+

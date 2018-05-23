@@ -1,0 +1,9 @@
+DELETE http://robustsfc.pl.sophia.inria.fr:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:1/flow-node-inventory:table/0/flow/1
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic YWRtaW46YWRtaW4=
+Content-Type: application/yang.data+json
+
+
+###
+
