@@ -6,31 +6,31 @@ Content-Type: application/yang.data+json
 
 {
     "flow": {
-       "priority": "1000",
-       "id": "1",
-       "flow-name": "Foo",
-       "table_id": "0",
-       "instructions": {
-           "instruction": [
-               {
-                   "apply-actions": {
-                       "action": [
-                           {
-                               "output-action": {
-                                   "output-node-connector": "openflow:1:1"
-                               },
-                               "order": 0
-                           }
-                       ]
-                   },
-                   "order": 0
-               }
-           ]
-       },
-       "match": {
-            "ipv4-source": "10.0.0.6/24"
+        "priority": "33000",
+        "flow-name": "Foo",
+        "match": {
+            "ethernet-match": {
+                "ethernet-type": {
+                    "type": "2048"
+                }
+            },
+            "ipv4-destination": "10.0.0.8/32"
+        },
+        "id": "1",
+        "table_id": "0",
+        "instructions": {
+            "instruction": {
+                "order": "1",
+                "apply-actions": {
+                    "action": {
+                        "order": "1",
+                        "set-nw-dst-action": {
+                            "ipv4-address": "10.0.0.7/32"
+                        }
+                    }
+                }
+            }
         }
-   }
+    }
 }
-
 ###
