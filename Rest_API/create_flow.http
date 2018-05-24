@@ -6,32 +6,10 @@ Content-Type: application/yang.data+json
 
 {
     "flow": {
-        "priority": "30000",
+        "priority": "1",
         "flow-name": "Foo",
-        "match": {
-            "ethernet-match": {
-                "ethernet-type": {
-                    "type": "2048"
-                }
-            },
-            "ipv4-destination": "10.0.0.6/24"
-        },
         "id": "1",
-        "table_id": "0",
-        "instructions": {
-            "instruction": {
-                "order": "1",
-                "apply-actions": {
-                    "action": [
-                    {
-                        "order": "2",
-                        "output-action": {
-                            "output-node-connector": "openflow:1:2"
-                        }
-                    }]
-                }
-            }
-        }
+        "table_id": "0"
     }
 }
 ###
