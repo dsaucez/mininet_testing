@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="root@robustsfc.pl.sophia.inria.fr:22" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@mininet:22" autoUploadExternalChanges="true">
     <serverData>
+      <paths name="root@mininet:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_410" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@robustsfc.pl.sophia.inria.fr:22">
         <serverdata>
           <mappings>
