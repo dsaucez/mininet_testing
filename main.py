@@ -14,21 +14,25 @@ def change_ip(network):
     network["h1"].setIP(ip="10.0.1.1", prefixLen=24)
     network["h2"].setIP(ip="10.0.1.2", prefixLen=24)
 
+def main():
+    setLogLevel('info')
+    system("sudo mn -c")
 
-setLogLevel('info')
-system("sudo mn -c")
+    remote_controller = RemoteController('c0', ip='127.0.0.1', port=6633, protocols="OpenFlow13")
+    # lc0 = Controller ("c1",protocols="OpenFlow13")
+    net = Mininet(topo=SimpleTopology(), switch=OVSSwitch, build=False)
+    net.addController(remote_controller)
 
-remote_controller = RemoteController('c0', ip='127.0.0.1', port=6633)
-# lc0 = Controller ("c1",protocols="OpenFlow13")
-net = Mininet(topo=SimpleTopology(), switch=OVSSwitch, build=False)
-net.addController(remote_controller)
+    net.build()
 
-net.build()
+    change_ip(network=net)
+    h1, h2, h3 = net.getNodeByName("h1", "h2", "h3")
+    #net.iperf( ( h1, h2 ), l4Type='UDP' )
 
-change_ip(network=net)
-h1, h2, h3 = net.getNodeByName("h1", "h2", "h3")
-#net.iperf( ( h1, h2 ), l4Type='UDP' )
+    net.start()
+    CLI(net)
+    net.stop()
 
-net.start()
-CLI(net)
-net.stop()
+
+if __name__=="__main__":
+    main()

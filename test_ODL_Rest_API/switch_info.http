@@ -1,4 +1,4 @@
-GET http://mininet:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:1
+GET http://robustsfc.pl.sophia.inria.fr:8181/restconf/config/opendaylight-inventory:nodes/node/openflow:2
 Accept: */*
 Cache-Control: no-cache
 Authorization: Basic YWRtaW46YWRtaW4=
