@@ -3,7 +3,7 @@ import json
 
 class Client(object):
 
-    def __init__(self, address, port="8181", user= "admin", password= "admin"):
+    def __init__(self, address, port="8181", user="admin", password="admin"):
         self.address = address
         self.user = user
         self.password = password
@@ -18,7 +18,7 @@ class Client(object):
         data = response.json()
         return data
 
-    def add_flow(self, switch, table="0", id="1", priority="1", flow_name = "No_Name", ipv4=None, instruction=None):
+    def add_flow(self, switch, table="0", id="1", priority="1", flow_name = "None", ipv4=None, instruction=None):
         switch, table, id, priority, flow_name = str(switch), str(table), str(id), str(priority), str(flow_name)
 
         link = "http://{}:{}/restconf/config/opendaylight-inventory:nodes/node/{}/flow-node-inventory:table/{}/flow/{}"\
