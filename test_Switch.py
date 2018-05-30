@@ -45,9 +45,9 @@ class MyTestCase(unittest.TestCase):
 
     def test_remove_flow(self):
         s = Switch("s")
-        s.tables["t"] = {"flow_id": "666"}
+        s.add_flow("t", Flow("flow_id"))
         s.remove_flow("t", "flow_id")
-        self.assertEqual(len(s.tables["t"]), 0)
+        self.assertEqual(len(s.tables["t"].flows), 0)
 
     def test_add_link_1(self):
         s = Switch("1")
@@ -76,17 +76,17 @@ class MyTestCase(unittest.TestCase):
         s.remove_link("2", "3")
         self.assertEqual({("1", "2")}, s.links)
 
-    def test_check_link(self):
+    def test_check_link_1(self):
         s = Switch("1")
         s.links = {("1", "2"), ("2", "3")}
         self.assertTrue(s.check_link("2", "3"))
 
-    def test_check_link(self):
+    def test_check_link_2(self):
         s = Switch("1")
         s.links = {("1", "2"), ("2", "3")}
         self.assertTrue(s.check_link("3", "2"))
 
-    def test_check_link(self):
+    def test_check_link_3(self):
         s = Switch("1")
         s.links = set()
         self.assertFalse(s.check_link("2", "3"))

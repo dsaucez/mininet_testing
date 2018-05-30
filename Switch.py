@@ -40,26 +40,27 @@ class Switch(object):
     def check_link(self, s1, s2):
         return (s1, s2) in self.links or (s2, s1) in self.links
 
-    def add_table(self, id):
-        if str(id) in self.tables.keys():
-            raise DuplicatedKeyError("Table with id {} already exist".format(id), id)
+    def add_table(self, table_id):
+        if str(table_id) in self.tables.keys():
+            raise DuplicatedKeyError("Table with id {} already exist".format(table_id))
         else:
-            self.tables[id] = Table(id)
+            self.tables[table_id] = Table(table_id)
 
     def add_flow(self, table_id, flow):
         if not (table_id in self.tables.keys()):
             self.add_table(table_id)
         self.tables[table_id].add_flow(flow)
 
-    def remove_flow(self,table_id, flow_id):
+    def remove_flow(self, table_id, flow_id):
         if not (table_id in self.tables.keys()):
-            raise KeyError("{} does not exist in this switch", table_id)
-        if not (flow_id in self.tables[table_id]):
-            raise KeyError("{} does not exist in this table", flow_id)
-        del self.tables[table_id][flow_id]
+            raise KeyError("{} does not exist in switch {}".format(table_id, self.id))
+        if not (flow_id in self.tables[table_id].flows):
+            raise KeyError("{} does not exist in table {}".format(flow_id, table_id))
+        del self.tables[table_id].flows[flow_id]
 
     def __str__(self):
         return "id : {}, tables : {}".format(self.id, str(self.tables))
+
 
 class DuplicatedKeyError(ValueError):
     def __init__(self, message, errors=None):
