@@ -35,4 +35,19 @@ class NetworkParser(object):
 
 
 class RequestParser(object):
-    None
+    def __init__(self, file_path):
+        self.parsed_file = self.__parse_file(file_path)
+        self.request = self.__create_request()
+
+    def __create_request(self):
+        requests = dict()
+        for s1, s2, bw in self.parsed_file:
+            requests[(s1, s2)] = float(bw)
+        return requests
+
+    def __parse_file(self, file_path):
+        lines = []
+        with open(file_path) as f:
+            for line in f:
+                lines.append(line.split())
+        return lines

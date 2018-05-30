@@ -2,6 +2,7 @@ import unittest
 import network_parser
 
 DUMMY_PATH = "dummy_file.txt"
+DUMMY_REQUESTS = "dummy_request.txt"
 
 
 class MyTestCase(unittest.TestCase):
@@ -45,6 +46,10 @@ class MyTestCase(unittest.TestCase):
         np = network_parser.NetworkParser(DUMMY_PATH)
         network = np.create_network()
         self.assertTrue(network["3"].check_link("3", "2"))
+
+    def test_request_parser_1(self):
+        rp = network_parser.RequestParser(DUMMY_REQUESTS)
+        self.assertEqual({("0", "2"): 158.0, ("1", "2"): 11.1}, rp.request)
 
 if __name__ == '__main__':
     unittest.main()

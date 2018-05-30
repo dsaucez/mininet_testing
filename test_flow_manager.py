@@ -40,6 +40,13 @@ class MyTestCase(unittest.TestCase):
             es.remove_flow(table_id="0", flow_id="0")
             self.assertTrue(True)
 
+    def test_get_flows(self):
+        es = flow_manager.ExtendedSwitch("openflow:1", TEST_SERVER)
+        response = es.get_flows()
+        self.assertIn("node", response)
+
+
+
 
 if __name__ == '__main__':
     unittest.main()

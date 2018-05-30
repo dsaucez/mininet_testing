@@ -20,18 +20,12 @@ class ExtendedSwitch(Switch.Switch):
         self.client.remove_flow(switch=self.id, table=table_id, id=flow_id)
         # TODO: add exceptions
 
-    def get_flows(self, switch):
-        return self.client.get_flows(switch=switch)
-
-
-
-
-
+    def get_flows(self):
+        return self.client.get_flows(switch=self.id)
 
 
 class FlowManager(object):
-    def __init__(self, network, controller_address, port="8181", user="admin", password="admin"):
-        self.client = Controller_client.Client(controller_address, port, user, password)
+    def __init__(self, network):
         self.network = network
 
 
