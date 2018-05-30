@@ -1,8 +1,10 @@
 class Flow(object):
-    def __init__(self, id, ip_match=None, instructions=None):
+    def __init__(self, id, priority="1", name="None", ipv4=None, instruction=None):
         self.id = id
-        self.ip_match = ip_match
-        self.instructions = instructions
+        self.priority = priority
+        self.name = name
+        self.ipv4 = ipv4
+        self.instruction = instruction
 
 
 class Table(object):

@@ -1,7 +1,7 @@
 import Switch
 
 
-class Network_parser(object):
+class NetworkParser(object):
     def __init__(self, file_path):
         parsed_file = self.__parse_file(file_path)
         self.links = self.__get_links(parsed_file)
@@ -34,5 +34,5 @@ class Network_parser(object):
         return lines
 
 
-class Request_parser(object):
+class RequestParser(object):
     None
