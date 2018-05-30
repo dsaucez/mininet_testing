@@ -25,7 +25,7 @@ class Switch(object):
         self.links = set()
 
     def add_link(self, s1, s2):
-        if not( (s1, s2) in self.links or (s2,s1) in self.links):
+        if not((s1, s2) in self.links or (s2,s1) in self.links):
             self.links.add((s1, s2))
 
     def remove_link(self,s1, s2):

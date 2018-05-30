@@ -49,6 +49,15 @@ class MyTestCase(unittest.TestCase):
         s.remove_flow("t", "flow_id")
         self.assertEqual(len(s.tables["t"]), 0)
 
+    def test_add_link(self):
+        None
+
+    def test_remove_link(self):
+        None
+
+    def test_check_link(self):
+        None
+
 
 
 if __name__ == '__main__':
