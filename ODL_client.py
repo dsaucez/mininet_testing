@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 class Client(object):
 
     def __init__(self, address, port="8181", user="admin", password="admin"):

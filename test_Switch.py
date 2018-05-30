@@ -49,15 +49,47 @@ class MyTestCase(unittest.TestCase):
         s.remove_flow("t", "flow_id")
         self.assertEqual(len(s.tables["t"]), 0)
 
-    def test_add_link(self):
-        None
+    def test_add_link_1(self):
+        s = Switch("1")
+        s.add_link("1", "2")
+        self.assertEqual({("1", "2")}, s.links)
 
-    def test_remove_link(self):
-        None
+    def test_add_link_2(self):
+        s = Switch("1")
+        s.add_link("2", "1")
+        self.assertEqual({("2", "1")}, s.links)
+
+    def test_add_link_3(self):
+        s = Switch("1")
+        s.add_link("2", "3")
+        self.assertEqual(set(), s.links)
+
+    def test_remove_link_1(self):
+        s = Switch("1")
+        s.links = {("1", "2"), ("2", "3")}
+        s.remove_link("2", "3")
+        self.assertEqual({("1", "2")}, s.links)
+
+    def test_remove_link_2(self):
+        s = Switch("1")
+        s.links = {("1", "2")}
+        s.remove_link("2", "3")
+        self.assertEqual({("1", "2")}, s.links)
 
     def test_check_link(self):
-        None
+        s = Switch("1")
+        s.links = {("1", "2"), ("2", "3")}
+        self.assertTrue(s.check_link("2", "3"))
 
+    def test_check_link(self):
+        s = Switch("1")
+        s.links = {("1", "2"), ("2", "3")}
+        self.assertTrue(s.check_link("3", "2"))
+
+    def test_check_link(self):
+        s = Switch("1")
+        s.links = set()
+        self.assertFalse(s.check_link("2", "3"))
 
 
 if __name__ == '__main__':
