@@ -44,9 +44,27 @@ class Client(object):
                     }
 
         if instruction:
-            payload["flow"]["instructions"] = {
-                "instruction": instruction
-                }
+            if type(instruction) == dict:
+                if "out_port" in instruction.keys():
+                    payload["flow"]["instructions"] = [
+                        {
+                            "apply-actions": {
+                                "action": [
+                                    {
+                                        "output-action": {
+                                            "output-node-connector": instruction["out_port"]
+                                        },
+                                        "order": "1"
+                                    }
+                                ]
+                            },
+                            "order": "1"
+                        }
+                    ]
+            else:
+                payload["flow"]["instructions"] = {
+                    "instruction": instruction
+                    }
         response = requests.put(link, json.dumps(payload), auth=(self.user, self.password), headers=self.header)
         return response
 

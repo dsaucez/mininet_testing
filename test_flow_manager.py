@@ -46,11 +46,12 @@ class MyTestCase(unittest.TestCase):
         response = es.get_flows()
         self.assertIn("node", response)
 
-
     def test_FlowManager(self):
         network = {"openflow:1": Switch("openflow:1"), "openflow:3": Switch("openflow:3") }
         fm = flow_manager.FlowManager(network=network, solution=None, controller_address=TEST_SERVER)
         fm.network["openflow:1"].add_flow("0", Flow("0"))
+        fm.network["openflow:1"].remove_flow("0", "0")
+
 
 
 if __name__ == '__main__':

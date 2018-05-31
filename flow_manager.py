@@ -1,6 +1,6 @@
 import ODL_client as Controller_client
 from copy import deepcopy
-
+import abc
 import Switch
 
 
@@ -38,13 +38,22 @@ class FlowManager(object):
         extended_network = deepcopy(network)
         for switch in extended_network.keys():
             extended_network[switch].client = Controller_client.Client(address=self.controller_address, port=self.port,
-                                                     user=self.user, password=self.password)
+                                                                       user=self.user, password=self.password)
             extended_network[switch].__class__ = ExtendedSwitch
-
         return extended_network
 
+    @abc.abstractmethod
+    def install_flows_to_controller(self):
+        None
 
 
+class SimpleFlowManager(FlowManager):
+    def __init__(self, network, solution, controller_address, port="8181", user="admin", password="admin"):
+        super(SimpleFlowManager, self).__init__(network, solution, controller_address, port=port,
+                                                user=user, password=password)
+
+
+    def install_flows_to_controller(self):
 
 
 

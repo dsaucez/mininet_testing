@@ -24,7 +24,7 @@ class Orchestrator(object):
         return network_parser.RequestParser(request_file_path)
 
     def __create_flow_manager(self, network, solution):
-        return flow_manager.FlowManager(network, solution)
+        return flow_manager.SimpleFlowManager(network, solution)
 
     def __create_network_builder(self, network, request):
         return mininet_manager.NetworkBuilder(network, request)

@@ -15,7 +15,14 @@ class ODLTestCase(unittest.TestCase):
 
     def test_add_flow_dummy(self):
         c = ODL.Client(ODL_SERVER)
-        response = c.add_flow(switch="openflow:1", table="0", id="0",priority="666", ipv4="10.0.0.0/24")
+        response = c.add_flow(switch="openflow:1", table="0", id="0",priority="666", ipv4="10.0.1.1/32")
+        self.assertTrue(response.status_code == 200 or response.status_code == 201)
+
+    def test_add_flow_dummy_1(self):
+        c = ODL.Client(ODL_SERVER)
+        response = c.add_flow(switch="openflow:1", table="0", id="1",priority="666", ipv4="10.0.1.2/32",
+                              instruction={"out_port": "openflow:1:2"})
+        print response.status_code
         self.assertTrue(response.status_code == 200 or response.status_code == 201)
 
     def test_remove_flow(self):
