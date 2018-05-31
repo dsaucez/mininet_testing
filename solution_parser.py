@@ -1,2 +1,6 @@
 class Solution_parser():
-    None
+    def __init__(self, solution_file_path):
+        None
+
+    def create_solution(self):
+        return None

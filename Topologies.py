@@ -7,7 +7,7 @@ from mininet.util import dumpNodeConnections
 class SimpleTopology(Topo):
     # Single switch connected to n hosts
     def build(self):
-        # Initialize topology and default optioe
+        # Initialize topology and default
         switches = []
         hosts = []
 

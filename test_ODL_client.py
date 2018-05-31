@@ -15,7 +15,7 @@ class ODLTestCase(unittest.TestCase):
 
     def test_add_flow_dummy(self):
         c = ODL.Client(ODL_SERVER)
-        response = c.add_flow(switch="openflow:1", table="0", id="0",priority="666",ipv4="10.0.0.0/24")
+        response = c.add_flow(switch="openflow:1", table="0", id="0",priority="666", ipv4="10.0.0.0/24")
         self.assertTrue(response.status_code == 200 or response.status_code == 201)
 
     def test_remove_flow(self):
@@ -27,6 +27,7 @@ class ODLTestCase(unittest.TestCase):
         c = ODL.Client(ODL_SERVER)
         response = c.get_flows("openflow:1")
         self.assertIn("node", response)
+
 
 if __name__ == '__main__':
     unittest.main()

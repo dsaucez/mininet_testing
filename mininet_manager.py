@@ -1,5 +1,5 @@
 class NetworkBuilder(object):
-    def __init__(self, network, request):
+    def __init__(self, parsed_network, request_parsed):
         None
 
 

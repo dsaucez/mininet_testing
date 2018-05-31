@@ -39,6 +39,9 @@ class RequestParser(object):
         self.parsed_file = self.__parse_file(file_path)
         self.request = self.__create_request()
 
+    def create_request(self):
+        return self.request
+
     def __create_request(self):
         requests = dict()
         for s1, s2, bw in self.parsed_file:

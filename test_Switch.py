@@ -1,6 +1,7 @@
 import unittest
 from Switch import *
 
+
 class MyTestCase(unittest.TestCase):
     def test_basic(self):
         self.assertEqual(True, True)
