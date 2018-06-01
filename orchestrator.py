@@ -6,7 +6,7 @@ class Orchestrator(object):
         self.network_parser = self.__create_network_parser(network_file_path)
         self.request_parser = self.__create_request_parser(request_file_path)
 
-        network_parsed = self.network_parser.create_network()
+        network_parsed = self.network_parser.create_network
         request_parsed = self.request_parser.create_request()
 
         self.network_builder = self.__create_network_builder(network=network_parsed, request=request_parsed)

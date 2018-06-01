@@ -65,6 +65,31 @@ class MyTestCase(unittest.TestCase):
         s.add_link("2", "3")
         self.assertEqual(set(), s.links)
 
+    def test_add_link_4(self):
+        s = Switch("1")
+        s.add_link("1", "2", "1")
+        self.assertEqual({"2": "1"}, s.port_mapping)
+
+    def test_add_link_5(self):
+        s = Switch("1")
+        s.add_link("2", "1", "1")
+        self.assertEqual({"2": "1"}, s.port_mapping)
+
+    def test_add_link_6(self):
+        s = Switch("3")
+        s.add_link("2", "3", "1")
+        self.assertEqual({"2": "1"}, s.port_mapping)
+
+    def test_get_port_1(self):
+        s = Switch("openflow:1")
+        s.add_link("openflow:1", "openflow:2","openflow:1:1")
+        self.assertEqual("openflow:1:1", s.get_port("openflow:2"))
+
+    def test_get_port_2(self):
+        s = Switch("openflow:1")
+        s.add_link("openflow:2", "openflow:1","openflow:1:1")
+        self.assertEqual("openflow:1:1", s.get_port("openflow:2"))
+
     def test_remove_link_1(self):
         s = Switch("1")
         s.links = {("1", "2"), ("2", "3")}

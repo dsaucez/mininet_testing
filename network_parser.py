@@ -12,8 +12,9 @@ class NetworkParser(object):
         for switch in self.switches:
             network[switch] = Switch.Switch(switch)
         for s1, s2 in self.links:
-            network[s1].add_link(s1, s2)
-            network[s2].add_link(s1, s2)
+            # add the link in the switch in the first free port
+            network[s1].add_link(s1, s2, port=len(network[s1].port_mapping) + 1)
+            network[s2].add_link(s1, s2, port=len(network[s2].port_mapping) + 1)
         return network
 
     def __get_switches(self, parsed_file):

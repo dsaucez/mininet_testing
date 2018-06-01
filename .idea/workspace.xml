@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f78b960-46b9-4a0a-9a9a-7069e8d85505" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dummy_solution.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ODL_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/ODL_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Switch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flow_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/flow_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/network_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orchestrator.py" beforeDir="false" afterPath="$PROJECT_DIR$/orchestrator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_ODL_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_ODL_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_flow_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flow_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_Switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Switch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_network_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_network_parser.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_add_link_4.coverage" NAME="Unittests for test_Switch.MyTestCase.test_add_link_4 Coverage Results" MODIFIED="1527840120291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_flow_manager_MyTestCase_test_FlowManager.coverage" NAME="Unittests for test_flow_manager.MyTestCase.test_FlowManager Coverage Results" MODIFIED="1527761763921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_ODL_client_ODLTestCase_test_remove_flow.coverage" NAME="Unittests for test_ODL_client.ODLTestCase.test_remove_flow Coverage Results" MODIFIED="1527770162895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet$main.coverage" NAME="main Coverage Results" MODIFIED="1526543072344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -35,16 +36,18 @@
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_remove_link_2.coverage" NAME="Unittests for test_Switch.MyTestCase.test_remove_link_2 Coverage Results" MODIFIED="1527668463982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_flow_manager_MyTestCase_test_remove_flow_2.coverage" NAME="Unittests for test_flow_manager.MyTestCase.test_remove_flow_2 Coverage Results" MODIFIED="1527686299391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_network_parser_MyTestCase.coverage" NAME="Unittests for test_network_parser.MyTestCase Coverage Results" MODIFIED="1527687269547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_get_port_2.coverage" NAME="Unittests for test_Switch.MyTestCase.test_get_port_2 Coverage Results" MODIFIED="1527841122561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_network_parser_MyTestCase_test_create_network_2.coverage" NAME="Unittests for test_network_parser.MyTestCase.test_create_network_2 Coverage Results" MODIFIED="1527673926869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test__Table___add_flow_3.coverage" NAME="Unittests for test_Switch.MyTestCase.test__Table___add_flow_3 Coverage Results" MODIFIED="1527597952068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_network_parser_MyTestCase_test_create_network.coverage" NAME="Unittests for test_network_parser.MyTestCase.test_create_network Coverage Results" MODIFIED="1527673752595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_add_link_6.coverage" NAME="Unittests for test_Switch.MyTestCase.test_add_link_6 Coverage Results" MODIFIED="1527840333988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_add_link_3.coverage" NAME="Unittests for test_Switch.MyTestCase.test_add_link_3 Coverage Results" MODIFIED="1527668209115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_add_link.coverage" NAME="Unittests for test_Switch.MyTestCase.test_add_link Coverage Results" MODIFIED="1527667893694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_flow_manager_MyTestCase_test_remove_flow_3.coverage" NAME="Unittests for test_flow_manager.MyTestCase.test_remove_flow_3 Coverage Results" MODIFIED="1527686294262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_network_parser_MyTestCase_test__NetworkParser_2.coverage" NAME="Unittests for test_network_parser.MyTestCase.test__NetworkParser_2 Coverage Results" MODIFIED="1527672219785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_ODL_client_MyTestCase_test_basic.coverage" NAME="Unittests for test_ODL_client.MyTestCase.test_basic Coverage Results" MODIFIED="1527495757031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_flow_manager_MyTestCase_test_add_flow_2.coverage" NAME="Unittests for test_flow_manager.MyTestCase.test_add_flow_2 Coverage Results" MODIFIED="1527684675305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase.coverage" NAME="Unittests for test_Switch.MyTestCase Coverage Results" MODIFIED="1527756053669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase.coverage" NAME="Unittests for test_Switch.MyTestCase Coverage Results" MODIFIED="1527841129435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_flow_manager_MyTestCase_test_get_flows.coverage" NAME="Unittests for test_flow_manager.MyTestCase.test_get_flows Coverage Results" MODIFIED="1527686922093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test__Table___add_flow_2.coverage" NAME="Unittests for test_Switch.MyTestCase.test__Table___add_flow_2 Coverage Results" MODIFIED="1527597931562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_ODL_client_ODLTestCase_test_create_client.coverage" NAME="Unittests for test_ODL_client.ODLTestCase.test_create_client Coverage Results" MODIFIED="1527497591494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -53,6 +56,8 @@
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_DuplicatedKeyError.coverage" NAME="Unittests for test_Switch.MyTestCase.test_DuplicatedKeyError Coverage Results" MODIFIED="1527692203347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_flow_manager_MyTestCase_test_remove_flow_1.coverage" NAME="Unittests for test_flow_manager.MyTestCase.test_remove_flow_1 Coverage Results" MODIFIED="1527685765618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_add_link_2.coverage" NAME="Unittests for test_Switch.MyTestCase.test_add_link_2 Coverage Results" MODIFIED="1527667987210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_add_link_5.coverage" NAME="Unittests for test_Switch.MyTestCase.test_add_link_5 Coverage Results" MODIFIED="1527840270891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_Switch_MyTestCase_test_get_port_1.coverage" NAME="Unittests for test_Switch.MyTestCase.test_get_port_1 Coverage Results" MODIFIED="1527841113909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy.coverage" NAME="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy Coverage Results" MODIFIED="1527768843317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_in_test_ODL_client_py.coverage" NAME="Unittests in test_ODL_client.py Coverage Results" MODIFIED="1527524869278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mininet_personalized_topo$Unittests_for_test_ODL_client_ODLTestCase.coverage" NAME="Unittests for test_ODL_client.ODLTestCase Coverage Results" MODIFIED="1527679284935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -75,40 +80,18 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41998774">
+    <splitter split-orientation="horizontal" split-proportion="0.42222223">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/solution_parser.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test_flow_manager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
+                <state relative-caret-position="780">
                   <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                     <marker date="1527761763548" expanded="true" signature="569:575" ph="..." />
                     <marker date="1527761763548" expanded="true" signature="790:1094" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_Switch.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1527758665997" expanded="true" signature="624:774" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -152,46 +135,15 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/polska_demand.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/polska_topo.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_network_parser.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1527694981424" expanded="true" signature="398:407" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/orchestrator.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
                   <folding>
-                    <marker date="1527776047639" expanded="true" signature="181:892" ph="..." />
-                    <marker date="1527776047639" expanded="true" signature="887:892" ph="..." />
-                    <marker date="1527776047639" expanded="true" signature="1067:1136" ph="..." />
-                    <marker date="1527776047639" expanded="true" signature="1436:1509" ph="..." />
+                    <marker date="1527841934761" expanded="true" signature="181:890" ph="..." />
+                    <marker date="1527841934761" expanded="true" signature="885:890" ph="..." />
+                    <marker date="1527841934761" expanded="true" signature="1065:1134" ph="..." />
+                    <marker date="1527841934761" expanded="true" signature="1434:1507" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -204,27 +156,42 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Switch.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="68" selection-start-line="68" selection-end-line="68" />
+                <state relative-caret-position="690">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
                   <folding>
-                    <marker date="1527686169385" expanded="true" signature="19:249" ph="..." />
-                    <marker date="1527686169385" expanded="true" signature="269:274" ph="..." />
-                    <marker date="1527686169385" expanded="true" signature="269:634" ph="..." />
-                    <marker date="1527686169385" expanded="true" signature="655:660" ph="..." />
+                    <marker date="1527841934732" expanded="true" signature="19:249" ph="..." />
+                    <marker date="1527841934732" expanded="true" signature="269:274" ph="..." />
+                    <marker date="1527841934732" expanded="true" signature="269:634" ph="..." />
+                    <marker date="1527841934732" expanded="true" signature="655:660" ph="..." />
+                    <marker date="1527841934732" expanded="true" signature="1298:1510" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/network_parser.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+                  <folding>
+                    <marker date="1527841934787" expanded="true" signature="269:672" ph="..." />
+                    <marker date="1527841934787" expanded="true" signature="921:979" ph="..." />
+                    <marker date="1527841934787" expanded="true" signature="1358:1392" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/network_parser.py">
+            <entry file="file://$PROJECT_DIR$/test_Switch.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" selection-start-line="34" selection-end-line="34" />
+                <state relative-caret-position="1380">
+                  <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
                   <folding>
-                    <marker date="1527755532103" expanded="true" signature="269:528" ph="..." />
-                    <marker date="1527755532103" expanded="true" signature="777:835" ph="..." />
-                    <marker date="1527755532103" expanded="true" signature="1214:1248" ph="..." />
+                    <element signature="e#0#15#0" expanded="true" />
+                    <marker date="1527841122414" expanded="true" signature="624:774" ph="..." />
+                    <marker date="1527841122414" expanded="true" signature="2226:2588" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -233,7 +200,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ODL_client.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="930">
+                <state relative-caret-position="915">
                   <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
@@ -247,7 +214,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test_ODL_client.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
+                <state relative-caret-position="300">
                   <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
@@ -268,19 +235,19 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/flow_manager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+                <state relative-caret-position="945">
+                  <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
                   <folding>
                     <element signature="e#0#38#0" expanded="true" />
-                    <marker date="1527776047677" expanded="true" signature="128:1013" ph="..." />
-                    <marker date="1527776047677" expanded="true" signature="397:406" ph="..." />
-                    <marker date="1527776047677" expanded="true" signature="1039:1044" ph="..." />
+                    <marker date="1527838890023" expanded="true" signature="128:1013" ph="..." />
+                    <marker date="1527838890023" expanded="true" signature="397:406" ph="..." />
+                    <marker date="1527838890023" expanded="true" signature="1039:1044" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dummy_solution.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
@@ -347,22 +314,22 @@
         <option value="$PROJECT_DIR$/test_ODL_Rest_API/dummy_file.txt" />
         <option value="$PROJECT_DIR$/dummy_file.txt" />
         <option value="$PROJECT_DIR$/test_ODL_Rest_API/delete_flow.http" />
-        <option value="$PROJECT_DIR$/Switch.py" />
         <option value="$PROJECT_DIR$/network_builder.py" />
         <option value="$PROJECT_DIR$/test_network_parser.py" />
         <option value="$PROJECT_DIR$/dummy_request.txt" />
-        <option value="$PROJECT_DIR$/network_parser.py" />
         <option value="$PROJECT_DIR$/solution_parser.py" />
-        <option value="$PROJECT_DIR$/test_Switch.py" />
         <option value="$PROJECT_DIR$/mininet_manager.py" />
         <option value="$PROJECT_DIR$/test_flow_manager.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test_ODL_client.py" />
         <option value="$PROJECT_DIR$/ODL_client.py" />
         <option value="$PROJECT_DIR$/orchestrator.py" />
-        <option value="$PROJECT_DIR$/flow_manager.py" />
         <option value="$PROJECT_DIR$/Topologies.py" />
         <option value="$PROJECT_DIR$/dummy_solution.txt" />
+        <option value="$PROJECT_DIR$/flow_manager.py" />
+        <option value="$PROJECT_DIR$/test_Switch.py" />
+        <option value="$PROJECT_DIR$/Switch.py" />
+        <option value="$PROJECT_DIR$/network_parser.py" />
       </list>
     </option>
   </component>
@@ -1857,28 +1824,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mininet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_Switch.MyTestCase">
+    <configuration name="Unittests for test_Switch.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mininet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1889,11 +1836,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ODL_client.ODLTestCase.test_add_flow_dummy&quot;" />
+      <option name="_new_target" value="&quot;test_Switch.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Switch.MyTestCase.test_add_link_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mininet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1904,11 +1851,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ODL_client.ODLTestCase.test_add_flow_dummy_1&quot;" />
+      <option name="_new_target" value="&quot;test_Switch.MyTestCase.test_add_link_5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_ODL_client.ODLTestCase.test_remove_flow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Switch.MyTestCase.test_add_link_6" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mininet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1919,11 +1866,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ODL_client.ODLTestCase.test_remove_flow&quot;" />
+      <option name="_new_target" value="&quot;test_Switch.MyTestCase.test_add_link_6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_flow_manager.MyTestCase.test_FlowManager" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Switch.MyTestCase.test_get_port_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mininet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1934,24 +1881,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_flow_manager.MyTestCase.test_FlowManager&quot;" />
+      <option name="_new_target" value="&quot;test_Switch.MyTestCase.test_get_port_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_Switch.MyTestCase.test_get_port_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mininet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Switch.MyTestCase.test_get_port_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.Unittests for test_flow_manager.MyTestCase.test_FlowManager" />
-      <item itemvalue="Python tests.Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy" />
-      <item itemvalue="Python tests.Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" />
-      <item itemvalue="Python tests.Unittests for test_ODL_client.ODLTestCase.test_remove_flow" />
+      <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_add_link_5" />
+      <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_add_link_6" />
+      <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_get_port_1" />
+      <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_get_port_2" />
+      <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" />
-        <item itemvalue="Python tests.Unittests for test_ODL_client.ODLTestCase.test_remove_flow" />
-        <item itemvalue="Python tests.Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy" />
-        <item itemvalue="Python tests.Unittests for test_flow_manager.MyTestCase.test_FlowManager" />
+        <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase" />
+        <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_get_port_2" />
+        <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_get_port_1" />
+        <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_add_link_6" />
+        <item itemvalue="Python tests.Unittests for test_Switch.MyTestCase.test_add_link_5" />
       </list>
     </recent_temporary>
   </component>
@@ -2071,39 +2033,46 @@
       <option name="project" value="LOCAL" />
       <updated>1527760857315</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="inheritance of flow manager">
+      <created>1527779860247</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1527779860247</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_flow_manager_MyTestCase_test_FlowManager - 2018.05.31 at 12h 16m 04s.xml">
-      <configuration name="Unittests for test_flow_manager.MyTestCase.test_FlowManager" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase - 2018.06.01 at 09h 59m 00s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy - 2018.05.31 at 14h 14m 03s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase - 2018.06.01 at 09h 59m 20s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy_1 - 2018.05.31 at 14h 19m 48s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_add_link_4 - 2018.06.01 at 10h 02m 00s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_add_link_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy_1 - 2018.05.31 at 14h 21m 22s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_add_link_5 - 2018.06.01 at 10h 02m 33s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_add_link_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy_1 - 2018.05.31 at 14h 23m 45s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_add_link_5 - 2018.06.01 at 10h 04m 31s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_add_link_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy_1 - 2018.05.31 at 14h 25m 00s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_add_link_6 - 2018.06.01 at 10h 05m 34s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_add_link_6" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_remove_flow - 2018.05.31 at 14h 35m 53s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_remove_flow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_get_port_1 - 2018.06.01 at 10h 18m 10s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_get_port_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_remove_flow - 2018.05.31 at 14h 36m 03s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_remove_flow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_get_port_1 - 2018.06.01 at 10h 18m 34s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_get_port_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy_1 - 2018.05.31 at 14h 36m 22s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase_test_get_port_2 - 2018.06.01 at 10h 18m 42s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase.test_get_port_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_ODL_client_ODLTestCase_test_add_flow_dummy_1 - 2018.05.31 at 14h 36m 55s.xml">
-      <configuration name="Unittests for test_ODL_client.ODLTestCase.test_add_flow_dummy_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Switch_MyTestCase - 2018.06.01 at 10h 18m 49s.xml">
+      <configuration name="Unittests for test_Switch.MyTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2117,21 +2086,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08785942" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.49946752" visible="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.69808304" weight="0.3079646" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840257" weight="0.32920355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6970181" visible="true" weight="0.3079646" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7305644" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.32920355" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50479233" side_tool="true" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.30298188" side_tool="true" visible="true" weight="0.3079646" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.67571884" weight="0.33539823" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49520767" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.6751864" weight="0.33539823" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4946752" weight="0.32920355" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49946752" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.88045233" weight="0.2937931" />
@@ -2189,7 +2159,8 @@
     <MESSAGE value="Switch and Controller Client integration DONE&#10;Unit test DONE" />
     <MESSAGE value="Request parser completed, with unit tests&#10;orchestrator started&#10;correction of som unit test" />
     <MESSAGE value="FlowManager started &#10;from network to Extended network work&#10;starting Unit test for Flow Manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="FlowManager started &#10;from network to Extended network work&#10;starting Unit test for Flow Manager" />
+    <MESSAGE value="inheritance of flow manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance of flow manager" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2197,12 +2168,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2390,26 +2355,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_flow_manager.py">
+    <entry file="file://$PROJECT_DIR$/test_network_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1527761763548" expanded="true" signature="569:575" ph="..." />
-            <marker date="1527761763548" expanded="true" signature="790:1094" ph="..." />
+            <marker date="1527841934801" expanded="true" signature="398:407" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_Switch.py">
+    <entry file="file://$PROJECT_DIR$/ODL_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="915">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1527758665997" expanded="true" signature="624:774" ph="..." />
+            <marker date="1527774442487" expanded="true" signature="51:52" ph="..." />
+            <marker date="1527774442487" expanded="true" signature="51:57" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ODL_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ODL_Rest_API/create_IPmatch_to_port_flow.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy_solution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/Users/giuseppe/PycharmProjects/mininet_personalized_topo/flow_manager.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/Users/giuseppe/PycharmProjects/mininet_personalized_topo/flow_manager.py</OriginalElement>
+          <nodes>
+            <node x="" y="">typing.Hashable</node>
+            <node x="" y="">Switch.Switch</node>
+            <node x="" y="">object</node>
+            <node x="" y="">flow_manager.FlowManager</node>
+            <node x="" y="">flow_manager.SimpleFlowManager</node>
+            <node x="" y="">flow_manager.ExtendedSwitch</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="241.0" y="129.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/Users/giuseppe/PycharmProjects/mininet_personalized_topo/orchestrator.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/Users/giuseppe/PycharmProjects/mininet_personalized_topo/orchestrator.py</OriginalElement>
+          <nodes>
+            <node x="" y="">orchestrator.Orchestrator</node>
+            <node x="" y="">typing.Hashable</node>
+            <node x="" y="">object</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="96.0" y="93.5" />
+          <SelectedNodes />
+          <Categories />
         </state>
       </provider>
     </entry>
@@ -2427,30 +2455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_network_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1527694981424" expanded="true" signature="398:407" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orchestrator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <marker date="1527776047639" expanded="true" signature="181:892" ph="..." />
-            <marker date="1527776047639" expanded="true" signature="887:892" ph="..." />
-            <marker date="1527776047639" expanded="true" signature="1067:1136" ph="..." />
-            <marker date="1527776047639" expanded="true" signature="1436:1509" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mininet_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2462,47 +2466,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Switch.py">
+    <entry file="file://$PROJECT_DIR$/orchestrator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="255">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding>
-            <marker date="1527686169385" expanded="true" signature="19:249" ph="..." />
-            <marker date="1527686169385" expanded="true" signature="269:274" ph="..." />
-            <marker date="1527686169385" expanded="true" signature="269:634" ph="..." />
-            <marker date="1527686169385" expanded="true" signature="655:660" ph="..." />
+            <marker date="1527841934761" expanded="true" signature="181:890" ph="..." />
+            <marker date="1527841934761" expanded="true" signature="885:890" ph="..." />
+            <marker date="1527841934761" expanded="true" signature="1065:1134" ph="..." />
+            <marker date="1527841934761" expanded="true" signature="1434:1507" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ODL_Rest_API/create_IPmatch_to_port_flow.http">
+    <entry file="file://$PROJECT_DIR$/test_flow_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flow_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+        <state relative-caret-position="780">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1527776047677" expanded="true" signature="128:1013" ph="..." />
-            <marker date="1527776047677" expanded="true" signature="397:406" ph="..." />
-            <marker date="1527776047677" expanded="true" signature="1039:1044" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <marker date="1527755532103" expanded="true" signature="269:528" ph="..." />
-            <marker date="1527755532103" expanded="true" signature="777:835" ph="..." />
-            <marker date="1527755532103" expanded="true" signature="1214:1248" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1527761763548" expanded="true" signature="569:575" ph="..." />
+            <marker date="1527761763548" expanded="true" signature="790:1094" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2517,16 +2501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ODL_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Topologies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -2537,22 +2511,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ODL_client.py">
+    <entry file="file://$PROJECT_DIR$/flow_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="945">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1527774442487" expanded="true" signature="51:52" ph="..." />
-            <marker date="1527774442487" expanded="true" signature="51:57" ph="..." />
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1527838890023" expanded="true" signature="128:1013" ph="..." />
+            <marker date="1527838890023" expanded="true" signature="397:406" ph="..." />
+            <marker date="1527838890023" expanded="true" signature="1039:1044" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dummy_solution.txt">
+    <entry file="file://$PROJECT_DIR$/Switch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <marker date="1527841934732" expanded="true" signature="19:249" ph="..." />
+            <marker date="1527841934732" expanded="true" signature="269:274" ph="..." />
+            <marker date="1527841934732" expanded="true" signature="269:634" ph="..." />
+            <marker date="1527841934732" expanded="true" signature="655:660" ph="..." />
+            <marker date="1527841934732" expanded="true" signature="1298:1510" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1527841122414" expanded="true" signature="624:774" ph="..." />
+            <marker date="1527841122414" expanded="true" signature="2226:2588" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1527841934787" expanded="true" signature="269:672" ph="..." />
+            <marker date="1527841934787" expanded="true" signature="921:979" ph="..." />
+            <marker date="1527841934787" expanded="true" signature="1358:1392" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

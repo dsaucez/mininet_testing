@@ -54,6 +54,7 @@ class SimpleFlowManager(FlowManager):
 
 
     def install_flows_to_controller(self):
+        None
 
 
 
